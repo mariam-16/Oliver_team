@@ -1,0 +1,309 @@
+/** @format */
+@media (max-width: 521px) {
+	.big_nav {
+		flex-direction: column;
+	}
+	.big_nav {
+		position: absolute;
+		top: 45px;
+		width: 200px;
+		height: 200px;
+		right: 10px;
+		text-align: center;
+		align-items: center;
+		display: none;
+		background-color: aliceblue;
+		border-radius: 10px;
+		border: 2px dotted green;
+	}
+	.left_side{
+		width: 100%;
+	}
+	.right_side {
+		width: 100%;
+	}
+	.list_icon i {
+		display: block;
+	}
+	.item_nav {
+		display: block;
+		margin: 10px;
+	}
+	.top_side:hover .big_nav {
+		display: block;
+	}
+	
+	.contant {
+		flex-direction: column;
+		
+	}
+	.explre {
+		font-size: 1.74rem;
+	}
+	.sub_header {
+		font-size: 26px;
+	}
+	.side_text {
+		width: 100%;
+	}
+	.powerfull {
+		font-size: 27px;
+		width: 100%;
+	}
+	.detali {
+		font-size: 16px;
+		width: 100%;
+	}
+	.icones {
+		padding-bottom: 3.125rem;
+	}
+	.images {
+		flex-direction: column;
+		align-items: center;
+	}
+	.header_plan {
+		width: 100%;
+	}
+	.plan_one {
+		flex-direction: column;
+	}
+	.text_plan {
+		width: 100%;
+	}
+	.plan_two {
+		flex-direction: column-reverse;
+	}
+	.picture {
+		width: 100%;
+	}
+	.long_par {
+		width: 100%;
+		font-size: 16px;
+	}
+	.main_header {
+		font-size: 1.399rem;
+	}
+	.question {
+		width: 80%;
+	}
+	.question h1 {
+		font-size: 2.5em;
+	}
+	.question p {
+		font-size: 1em;
+	}
+	.box-relative,
+	.host-bokes {
+		display: block;
+		width: 80%;
+	}
+	.host-bokes {
+		display: block;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		width: 90%;
+	}
+	.host-title {
+		width: 100%;
+	}
+	.avearge-rating {
+		width: 100%;
+		margin-bottom: 2em;
+	}
+	.start-free {
+		width: 80%;
+	}
+	.content-start-Free {
+		width: 100%;
+	}
+	.content-start-Free h1 {
+		font-family: prompt-bold;
+		font-size: 1.5em;
+		padding: 1rem;
+	}
+	.content-start-Free p {
+		font-family: prompt-regular;
+		font-size: 0.8em;
+		padding: 1rem;
+	}
+	.content-start-Free button {
+		padding: 10px 35px;
+	}
+
+	.how-easy {
+		width: 100%;
+	}
+	.answer-how-started {
+		display: block;
+	}
+	.box-step {
+		width: 100%;
+	}
+	.header-oliver {
+		width: 80%;
+		text-align: center;
+		margin: auto;
+	}
+	.header-oliver h1 {
+		font-size: 1.5em;
+	}
+	.header-oliver p {
+		font-size: 0.8em;
+	}
+	.plan-work {
+		width: 85%;
+		margin: auto;
+		padding: 0;
+	}
+
+	.box-plan-work {
+		width: 100%;
+		flex-wrap: nowrap;
+		display: block;
+		justify-content: center;
+	}
+
+	.box-plan-work .box-work {
+		width: 100%;
+		margin-bottom: 2em;
+	}
+	.header-plan {
+		width: 100%;
+	}
+
+	.header-sale {
+		width: 80%;
+	}
+	.header-sale h1 {
+		font-size: 1.5em;
+	}
+	.header-sale p {
+		font-size: 0.8em;
+	}
+	.boxes-users {
+		display: block;
+		width: 100%;
+	}
+	.user-none {
+		display: none;
+	}
+	.user {
+		width: 100%;
+	}
+
+	.form-add-user {
+		width: 80%;
+	}
+	.info-user {
+		display: block;
+	}
+	.Communication {
+		display: block;
+		width: 100%;
+	}
+	.border-top-footer {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		padding: 40px 0 0 50px;
+		border: none;
+	}
+
+	.box-nav {
+		margin-top: 3rem;
+	}
+}
+@media (max-width: 991px) and (min-width: 522px) {
+	.explre {
+		font-size: 23px;
+	}
+	.long_par {
+		width: 100%;
+		font-size: 17px;
+	}
+	.detali {
+		font-size: 25px;
+		width: 100%;
+	}
+	.lorem {
+		font-size: 14px;
+	}
+	.main_header {
+		font-size: 23px;
+	}
+	.user {
+		display: none;
+	}
+	.user-none {
+		width: 48%;
+	}
+	.left_side{
+		width: 49%;
+	}
+	.contant{
+		align-items: center;
+	}
+	.powerfull{
+		width: 80%;
+	}
+	/* .box-step .object {
+		font-size: 1em;
+	}
+	.box-step p {
+		padding-top: .8em;
+	} */
+	.box-work button {
+		font-size: 1em;
+	}
+	.box-plan-work {
+		width: 100%;
+		padding: 50px 10px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.header-plan {
+		width: 100%;
+	}
+	.header-plan h1 {
+		font-size: 1.8em;
+	}
+	.header-plan p {
+		font-size: 1em;
+	}
+	.right,
+	.left {
+		top: 50%;
+	}
+	.content-start-Free {
+		width: 70%;
+		text-align: center;
+		color: var(--main_color_white);
+	}
+	.content-start-Free h1 {
+		font-family: prompt-bold;
+		/* padding: 0 8rem; */
+	}
+	.content-start-Free p {
+		font-family: prompt-regular;
+		/* padding: 20px 2rem; */
+	}
+	.header-sale {
+		width: 40%;
+	}
+	.header-sale h1 {
+		font-size: 1.5em;
+	}
+	.header-sale p {
+		font-size: 0.8em;
+	}
+	.form-add-user {
+		width: 70%;
+	}
+	.Communication {
+		width: 90%;
+	}
+	.border-top-footer {
+		padding: 30px 0;
+	}
+}
